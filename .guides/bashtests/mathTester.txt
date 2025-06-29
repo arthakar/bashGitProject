@@ -1,0 +1,135 @@
+.guides/bashtests/init.sh ; clear
+pwd
+mkdir trial-run
+cd trial-run
+touch testing.py
+ls
+clear
+.guides/bashtests/init.sh ; clear
+clear
+ls
+cat signups.txt
+grep -E '[a-zA-Z]{1,16}' signups.txt
+ls
+grep -E '[a-zA-Z]{1,16}@[a-z]+\.(com|org|net)' signups.txt
+grep -E '[a-zA-Z1-16]{1,16}@[a-z]+\.(com|org|net)' signups.txt
+clear;
+pwd
+ls
+ls -a
+mkdir hello-world
+ls
+cd hello-world
+touch hello.py
+ls
+nano hello.py
+ls
+cat hello.py
+python3 hello.py
+l
+ls
+cd hello-world
+git init
+ls
+cd hello-world
+ls -al
+git remote add origin git@github.com:aryankthakar/hello-world.git
+ls
+ls -al
+git remote -v
+git add hello.py
+git commit -m 'initial commit'
+git push
+git push --set-upstream origin master
+git push --setupstream origin master
+git push --set-upstream origin master
+bash --version
+echo $SHELL
+clear
+export NAME=value
+export IRONMAN=Tony
+echo $IRONMAN
+echo $NAME
+set
+env
+clear
+env
+clear
+env
+unset IRONMAN
+echo $IRONMAN
+NAME=value
+echo NAME
+echo $NAME
+NAME=''
+echo $NAME
+printenv
+cd ~/workspace
+echo Hey, all you people!
+printf "Won't you listen to me?"
+printf "Won't you listen to me?\n"
+cat commands.txt
+source /home/codio/workspace/commands.txt
+clear
+bash Challenge/challenge1.sh
+clear
+bash Challenge/challenge1.sh
+pwd > directory.txt
+cat directory.txt
+ls >> directory.txt
+cat directory.txt
+ls > directory.txt
+cat directory.txt
+pwd >> directory.txt && cat directory.txt
+pwd > directory.txt > cat directory.txt
+cat directory.txt
+pwd > directory.txt & cat directory.txt
+pwd > directory.txt && cat directory.txt
+ls /fakedir
+ls /fakedir 1>output.txt 2>error.txt
+cat output.txt
+cat error.txt
+cat output.txt
+cat < champs.txt
+cat << ThisIsTheEnd
+Is this the real life?
+Is this just fantasy?
+Caught in a landslide,
+No escape from reality
+ThisIsTheEnd
+
+clear
+cat << ThisIsTheEnd
+Is this the real life?
+Is this just fantasy?
+Caught in a landslide,
+No escape from reality
+ThisIsTheEnd
+
+cat << ThisIsTheEnd
+Is this the real life?
+Is this just fantasy?
+Caught in a landslide,
+No escape from reality
+ThisIsTheEnd
+
+cat << ThisIsTheEnd
+Is this the real life?
+Is this just fantasy?
+Caught in a landslide,
+No escape from reality
+ThisIsTheEnd
+
+cat ThisIsTheEnd
+echo "Disk Space Usage Report" > diskspace.txt
+cat diskspace.txt
+df >> diskspace.txt
+cat diskspace.txt
+cat < diskspace.txt
+cat < EndOfReport
+cat << EndOfReport
+I have reported the usage of disk space in KBs.
+If you'd like, I can also run the report in megabytes
+It would be as easy as using the df -m command
+EndOfReport
+
